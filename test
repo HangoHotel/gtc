@@ -1,0 +1,20 @@
+POST https://webhook.site/9e9a3c26-5f3c-40ca-80dc-575060e8d784
+ 
+X-Mplus-Subscription-Id: hoi
+X-Mplus-Signature: uZucqk+xPZii7TmP1IHOKPoS4/K+8ejNwl7EyxnEzs4=
+Content-Type: application/json
+Accept: application/json
+ 
+{
+    "event": {
+        "eventBlocking": true,
+        "eventCounter": 1,
+        "eventTimestamp": "2017-08-09T16:07:33.964+02:00"
+    },
+    "sender": {
+        "branchNumber": 1,
+        "workplaceNumber": 1
+    },
+    "session": {
+        "sessionId": "5eea25d4-4188-43b8-9a66-8086561d590c"
+    }
